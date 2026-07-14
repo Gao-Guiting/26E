@@ -1,0 +1,53 @@
+﻿# ====================
+# Keil MDK 编译输出
+# ====================
+*.o
+*.d
+*.crf
+*.htm
+*.dep
+*.iex
+*.sct
+*.map
+*.axf
+*.hex
+*.bin
+*.lib
+*.lst
+*.lnp
+*.scvd
+JLinkLog.txt
+JLinkSettings.ini
+EventRecorderStub.scvd
+
+# Keil 项目文件（个人配置）
+*.uvguix.*
+*.uvoptx
+
+# Keil 输出目录
+Listings/
+Objects/
+DebugConfig/
+
+# ====================
+# VS Code 本地配置（可选保留c_cpp_properties.json）
+# ====================
+.vscode/settings.json
+.vscode/keil-assistant.log
+.vscode/uv4.log.lock
+
+# ====================
+# Theia IDE 配置
+# ====================
+.theia/
+
+# ====================
+# Windows 系统文件
+# ====================
+Thumbs.db
+Desktop.ini
+
+# ====================
+# 打包备份脚本
+# ====================
+删除目标文件(用于打包备份).bat
